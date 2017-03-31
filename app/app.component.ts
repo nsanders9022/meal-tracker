@@ -15,7 +15,6 @@ import { Meal } from './meal.model';
           <new-meal (newMealSender)="addMeal($event)"></new-meal>
 
           <edit-meal [childSelectedMeal]="selectedMeal" (doneButtonClickedSender)="finishedEditing()"></edit-meal>
-
         </div>
       </div>
     </div>
@@ -24,6 +23,8 @@ import { Meal } from './meal.model';
 
 export class AppComponent {
   selectedMeal = null;
+  calorieTotal: number = 0;
+
 
   masterMealList: Meal[] = [
     new Meal("Pancakes", "I did not add syrup", 350),
