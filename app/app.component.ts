@@ -7,13 +7,13 @@ import { Meal } from './meal.model';
     <div class="container">
       <h1>My Meal Tracker</h1>
 
-      <div class="row">
+      <div class="row main-content">
         <div class="col-md-6">
           <meal-list [childMealList]="masterMealList" (clickSender)="editMeal($event)"></meal-list>
         </div>
         <div class="col-md-6">
           <new-meal (newMealSender)="addMeal($event)"></new-meal>
-          
+
           <edit-meal [childSelectedMeal]="selectedMeal" (doneButtonClickedSender)="finishedEditing()"></edit-meal>
 
         </div>

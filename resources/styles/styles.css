@@ -1,3 +1,20 @@
-li {
-  list-style: none;
+body {
+  background-image: url("http://www.commonground.coop/sites/default/files/vegetables%20wooden%20background-croppedx2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-content {
+  background-color: rgba(179, 183, 181, 0.8);
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10%;
+}
+
+.btn {
+  margin-top: 10px;
 }
