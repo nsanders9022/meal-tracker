@@ -8,27 +8,28 @@ This web application to add information about meals they ate, update that inform
 
 ** User views current meal object with information and calorie count**
 
-* Name: "Hamburger"
-* Details: "Didn't get a soda or cheese on my burger!"
-* Calories: 354
+* Name: "Pancakes"
+* Details: "I didn't add syrup!"
+* Calories: 350
 
 ** User can update a meal-tracker**
 
-* Name: "Hamburger"
-* Details: "I changed my mind and got a soda"
+* Name: "Pancakes"
+* Details: "I changed my mind and added syrup"
 * Calories: 502
 
 **User can add a new meal to the tracker**
 
-* Name: "Fries"
-* Details: "I only ate half of them."
+* Name: "Salmon burger"
+* Details: "The buns were whole grain"
 * Calories: 365
 
 **User can filter the meals by calorie count**
 
 * Less than 500 Calories
-  * Name: "Hamburger"  Details: "Didn't get a soda or cheese on my burger!" Calories: 354
-  * Name: "Fries"  * Details: "I only ate half of them." * Calories: 365
+  * Name: "Salmon burger"  Details: "The buns were whole grain" Calories: 365
+* More than 500 Calories
+  * Name: "Pancakes" Details: "I changed my mind and added syrup" Calories: 502
 
 ## Installation
 
