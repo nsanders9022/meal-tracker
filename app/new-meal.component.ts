@@ -4,7 +4,7 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'new-meal',
   template: `
-    <h3>Add a New Meal</h3>
+    <h2>Add a New Meal</h2>
     <div>
       <label>Name:</label>
       <input #newName class="form-control">

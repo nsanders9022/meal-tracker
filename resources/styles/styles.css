@@ -2,10 +2,31 @@ body {
   background-image: url("http://www.commonground.coop/sites/default/files/vegetables%20wooden%20background-croppedx2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Coming Soon', cursive;
 }
 
 h1 {
   text-align: center;
+  font-size: 50px;
+  color: maroon;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p, label {
+  font-size: 16px;
+}
+
+.labels {
+  font-weight: bold;
 }
 
 .main-content {

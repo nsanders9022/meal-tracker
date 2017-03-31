@@ -7,7 +7,7 @@ import { Meal } from './meal.model';
     <div>
       <div *ngIf="childSelectedMeal">
         <hr>
-        <h3>Edit {{childSelectedMeal.name}}</h3>
+        <h2>Edit {{childSelectedMeal.name}}</h2>
         <label>Meal Name:</label>
         <input [(ngModel)]="childSelectedMeal.name" class="form-control">
         <label>Meal Details:</label>
