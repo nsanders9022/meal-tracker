@@ -4,14 +4,16 @@ import { AppComponent }   from './app.component';
 import { MealListComponent } from './meal-list.component';
 import { EditMealComponent } from './edit-meal.component';
 import { FormsModule } from '@angular/forms';
+import { NewMealComponent } from './new-meal.component';
 
 @NgModule({
   imports: [ BrowserModule,
-              FormsModule],
+             FormsModule],
   declarations: [ AppComponent,
                   MealListComponent,
-                  EditMealComponent],
-  bootstrap:    [ AppComponent ]
+                  EditMealComponent,
+                  NewMealComponent],
+  bootstrap: [ AppComponent ]
 })
 
 export class AppModule { }
